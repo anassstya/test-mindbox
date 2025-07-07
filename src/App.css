@@ -1,0 +1,72 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    color: dimgray;
+    box-sizing: border-box;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: darkgrey;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.item-elem{
+    font-family: "Work Sans", sans-serif;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.completedText{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.btn-delete{
+    border-radius: 5px;
+    border: none;
+    background-color: darksalmon;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.task-summary, .no-tasks{
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+}
+.btn-footer{
+    min-width: 60px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    background-color: darkgrey;
+    color: #fff;
+}
